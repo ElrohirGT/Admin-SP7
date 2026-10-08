@@ -15,6 +15,7 @@ func TestReverse(t *testing.T) {
 		{"sentence with spaces", "hola mundo", "odnum aloh"},
 		{"unicode characters", "canción", "nóicnac"},
 		{"single character", "a", "a"},
+		{"palindrome stays the same", "reconocer", "reconocer"},
 		{"empty string", "", ""},
 	}
 
