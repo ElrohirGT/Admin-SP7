@@ -21,6 +21,7 @@ func Reverse(s string) string {
 
 // CountVowels retorna el total de vocales (con o sin tilde) de la cadena.
 func CountVowels(s string) int {
+	// return 2
 	count := 0
 	for _, r := range strings.ToLower(s) {
 		if strings.ContainsRune("aeiouáéíóúü", r) {
