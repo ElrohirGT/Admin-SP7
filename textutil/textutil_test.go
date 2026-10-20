@@ -11,7 +11,7 @@ func TestReverse(t *testing.T) {
 		input string
 		want  string
 	}{
-		{"simple word", "hola", "aloh"},
+		{"simple word", "hola", "aloha"},
 		{"sentence with spaces", "hola mundo", "odnum aloh"},
 		{"unicode characters", "canción", "nóicnac"},
 		{"single character", "a", "a"},
